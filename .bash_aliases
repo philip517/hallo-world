@@ -15,7 +15,6 @@ alias no='open /home/philip/Downloads/no\ more\ mr\ nice\ guy\.\pdf'
 
 
  ##//                                    DIRECTORIES
-
  
  alias books='cd /home/philip/SCHOOL-DATA/courses/; ls'
  alias ict='cd /home/philip/SCHOOL-DATA/courses/2nd\ \YEAR/ict2010/material; ls'
@@ -40,9 +39,10 @@ alias rammb='free -m -s 1'
 alias ramgb='free -g -s 1'
 alias ramkb='free -k -s 1'
 alias run='java'
+alias sys='inxi -Fxz'
 alias update='sudo apt update'
 alias upgrade='sudo apt upgrade'
-
+alias comp='tar -czvf compressed.tar.gz'
 ##//                                     NETWORKING
 
 
@@ -62,4 +62,5 @@ alias fm='nemo'
 alias jg=' cd  ~/.wine/drive_c/Program\ Files\ \(x86\)/jGRASP/bin/; wine jgrasp.exe '
 alias matrix='cmatrix -C blue  7' 
 alias pl='mocp -T black_theme'
-alias settings='/usr/share/cinnamon/cinnamon-settings/cinnamon-settings.py' 
+alias settings='systemsettings5 &'
+
